@@ -1,4 +1,5 @@
-.config/
-.env
-env/
-
+# Files to ignore when pushing to remote repository.
+__pycache__/
+data/.env
+data/store.db
+data/debug.log
